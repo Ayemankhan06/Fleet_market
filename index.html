@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fleet Market</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg custom-nav">
+        <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="fleet-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:#fff; font-size:35px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Our-Vehicle.html">Our Vehicle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal1">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link host-btn" href="#" data-toggle="modal" data-target="#exampleModal2">Become a host</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--- Login modals !-->
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Log In </p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Welcome Back!</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Your Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Your Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign In</button>
+                        <p class="text-white text-center" style="font-size: 13px;"><a href="#" data-toggle="modal" data-target="#exampleModal1">Don't you have an account? Register!</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- register modal -->
+ <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content" style="background-color: transparent;">
+             <div class="modal-body">
+                 <p class="text-white text-center p-3" style="font-size: 32px; ">Sign Up </p>
+                 <p class="text-white text-center" style="font-size: 14px; ">Register Now</p>
+                 <hr style="background-color: white; width: 80%;" class="mb-5">
+                 <form class="padd">
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                       <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                       <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                       <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                   </div>
+                     <div class="form-group form-check">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                     </div>
+                     <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                     <p class="text-white text-center" style="font-size: 13px;"><a>Already have an account? SignIn</a></p>
+                 </form>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- Become a host modal -->
+ <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content" style="background-color: transparent;">
+             <div class="modal-body">
+                 <p class="text-white text-center p-3" style="font-size: 32px; ">Become a Host</p>
+                 <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p>
+                 <hr style="background-color: white; width: 80%;" class="mb-5">
+                 <form class="padd">
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                       <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Dot Number</label>
+                       <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dot #">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                       <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                   </div>
+                   <div class="form-group">
+                       <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                       <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                   </div>
+                     <div class="form-group form-check">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                         <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                     </div>
+                     <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                     <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+                 </form>
+             </div>
+         </div>
+     </div>
+ </div>
+  <!-- modals end here -->
+    <section class="banner-section">
+        <div class="banner-text">
+            <div class="container">
+                <h2 class="text-center text-capitalize">Your Equipment rental experience starts here!</h2>
+                <p class="text-center mt-2" style="font-size: 22px; line-height: 2">Tractors, Trailers Trucks, Pick-ups, & Vans</p>
+            </div>
+        </div>
+    </section>
+    <section class="search-main">
+        <div class="container">
+            <div class="mainsearch-wrapper">
+                <div class="searchwrapper-inner">
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                      <label for="exampleFormControlSelect1">Searching For</label>
+                      <select class="form-control placeholder-clr">
+                        <option value="" disabled selected hidden>Enter Your Pickup Location</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="form-group search-input">
+                                    <label for="exampleInputEmail1">Start Date</label>
+                                    <input type="email" class="form-control" placeholder="Start Date">
+                                    <span><img src="images/start date.png"></span>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group search-input">
+                                    <label for="exampleInputEmail1">End Date</label>
+                                    <input type="email" class="form-control" placeholder="Start Date">
+                                    <span><img src="images/ending date.png"></span>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Radius</label>
+                                    <select class="form-control placeholder-clr">
+                                      <option value="" disabled selected hidden>6mi</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group search-input">
+                      <label for="exampleInputEmail1">Pick-up Location</label>
+                      <input type="email" class="form-control" placeholder="Enter your pick-up location here">
+                      <span><img src="images/search.png"></span>
+
+
+                    </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="form-group search-input">
+                                    <label for="exampleInputEmail1">Check-in</label>
+                                    <input type="email" class="form-control" placeholder="Check-in">
+                                    <span><img src="images/check in.png"></span>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group search-input">
+                                    <label for="exampleInputEmail1">Check-out</label>
+                                    <input type="email" class="form-control" placeholder="Check-out">
+                                    <span><img src="images/check out.png"></span>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                          <a type="button" class="btn srch-btn1">Search</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="featured-section">
+        <h3 class="text-capitalize m-0 about-us-headings text-center">Our Featured <span style="color: #a10c10; font-weight: bold;"> Vehicles</span></h3>
+        <p class="text-muted mt-3 mb-5 text-center">Hand-picked selection of quality equipments</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="vehicles-menu">
+                        <img src="images/featured.png">
+                        <span class="menu">Featured</span>
+                        <div class="rate-part">
+                            <div class="profile-img">
+                                <img src="images/profile.png">
+                            </div>
+                            <div class="rate-usd">
+                                <p>2014 Kenworth</p>
+                                <span>$120/Day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-4 col-sm-12">
+                    <div class="vehicles-menu">
+                        <img src="images/featured.png">
+                        <div class="rate-part">
+                            <div class="profile-img">
+                                <img src="images/profile.png">
+                            </div>
+                            <div class="rate-usd">
+                                <p>2014 Kenworth</p>
+                                <span>$120/Day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-md-4 col-sm-12">
+                    <div class="vehicles-menu">
+                        <img src="images/featured.png">
+                        <div class="rate-part">
+                            <div class="profile-img">
+                                <img src="images/profile.png">
+                            </div>
+                            <div class="rate-usd">
+                                <p>2014 Kenworth</p>
+                                <span>$120/Day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="text-capitalize about-us-headings text-center" style="margin-top: 130px;">Find the vehicle that <span style="color: #a10c10; font-weight: bold;">Fits your comfort</span></h3>
+    <section class="featured-slider" style="margin-top: 85px;">
+        <div class="container">
+            <div class="innercontainer">
+                <div class="slider-wrapper">
+                    <div class="featured-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="inner-wrapepr-box odd">
+                                <figure>
+                                    <img src="images/sliding-image-1.png" class="img-fluid">
+                                </figure>
+                                <div class="space60"></div>
+                                <div class="caption-slider">
+                                    <h3>Tractors</h3>
+                                    <p>Philapadelphia, PA, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner-wrapepr-box even">
+                                <div class="caption-slider">
+                                    <h3>Trucks</h3>
+                                    <p>Philapadelphia, PA, USA</p>
+                                </div>
+                                <div class="space160"></div>
+                                <figure>
+                                    <img src="images/sliding-image-2.png" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner-wrapepr-box odd">
+                                <figure>
+                                    <img src="images/sliding-image-3.png" class="img-fluid">
+                                </figure>
+                                <div class="space60"></div>
+                                <div class="caption-slider">
+                                    <h3>VANs</h3>
+                                    <p>Philapadelphia, PA, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner-wrapepr-box odd">
+                                <figure>
+                                    <img src="images/sliding-image-1.png" class="img-fluid">
+                                </figure>
+                                <div class="space60"></div>
+                                <div class="caption-slider">
+                                    <h3>Tractors</h3>
+                                    <p>Philapadelphia, PA, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rental-section page-right-margin page-left-margin">
+        <div class="container-fluid">
+            <h3 class="text-capitalize about-us-headings text-center" style="margin-top: 120px;">Truck rental is <span style="color: #a10c10; font-weight: bold;">now easy</span></h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center p-5">
+                        <img class="home-book-img" src="images/serch.png">
+                        <h3 class="font-weight-bold mt-3 mb-3" style="font-size: 20px;">Search</h3>
+                        <p class="text-muuted" style="line-height: 26px; font-size: 13px;">
+                            Enter your pick up location, select the vehicle type you want. Enter start and end date and we will filter them out for you.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-5">
+                        <img class="home-book-img" src="images/book.png">
+                        <h3 class="font-weight-bold mt-3 mb-3" style="font-size: 20px;">Book</h3>
+                        <p class="text-muuted" style="line-height: 26px; font-size: 13px;">
+                            After booking and identity confirmation, your vehicle is ready. Grab the keys, drive and return it after use to pick up location.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-5">
+                        <img class="home-book-img" src="images/drive.png">
+                        <h3 class="font-weight-bold mt-3 mb-3" style="font-size: 20px;">Drive</h3>
+                        <p class="text-muuted" style="line-height: 26px; font-size: 13px;">
+                            Check out the available listed vehicles with their photos and details. Now, request to book and we will make it available for you.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container-fluid">
+            <div class="col-md-6 sliderwrapper">
+              <h3 class="text-center">Hear From Our Customers</h3>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. </p>
+                            <span class="overview">ANNA ANDREWS</p>
+                        </div>
+                        <div class="item carousel-item">
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. </p>
+                            <span class="overview">ANNA ANDREWS</p>
+                        </div>
+                        <div class="item carousel-item">
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. </p>
+                            <span class="overview">ANNA ANDREWS</p>
+                        </div><!--
+                        <div class="item carousel-item">
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                            <span class="overview">ANNA ANDREWS</p>
+                        </div>
+                        <div class="item carousel-item">
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                            <span class="overview">ANNA ANDREWS</p>
+                        </div> -->
+                    </div> <!-- Carousel controls -->
+                    <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="">
+                          <img src="images/back.png">
+
+                        </i> </a>
+                    <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="">
+                          <img src="images/next.png">
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </section>
+    <section class="home-payment" style="margin-top: 130px; margin-bottom: 130px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mobileborder-zero" style="border-right: 4px solid;">
+                    <img src="images/faqs.png" class="home-bottom-img"style="display: block; margin: auto;"><br>
+                    <center>
+                        <a href="FAQs.html" class="btn btn-dark home-btn">FAQS</a>
+                    </center>
+                </div>
+                <div class="col-md-4 mobileborder-zero" style="border-right: 4px solid;">
+                    <div class="row">
+                        <img class="p-2" src="images/payment.png" style="display: block;margin: auto;height: 80px;">
+                    </div>
+                    <br>
+                    <center>
+                        <a class="btn btn-dark text-uppercase home-btn">Book online Today</a>
+                    </center>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/contact us.png" class="home-bottom-img" style="display: block; margin: auto;"><br>
+                    <center>
+                        <a href="contact-us.html" class="btn btn-dark text-uppercase home-btn">Contact us</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/logo.png">
+                    <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Explore</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Tractors</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Trucks</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Vans</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Information</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Help</a></li>
+                        <li><a href="blog.html"><i class="fa fa-play" aria-hidden="true"></i>Blog</a></li>
+                        <li><a href="about-us.html"><i class="fa fa-play" aria-hidden="true"></i>About Us</a></li>
+                        <li><a href="contact-us.html"><i class="fa fa-play" aria-hidden="true"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Customer Care</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Host-FAQs</a></li>
+                        <li><a href="term-of-use.html"><i class="fa fa-play" aria-hidden="true"></i>Terms of Use</a></li>
+                        <li><a href="privacy-policy.html"><i class="fa fa-play" aria-hidden="true"></i>Privacy Policy</a></li>
+                        <li><a href="resolution-center.html"><i class="fa fa-play" aria-hidden="true"></i>Resolution Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-section">
+        <div class="container">
+            <p>Copyrights© by FLEET MARKET LLC 2020. All rights Reserved</p>
+            <ul class="footer-social-links">
+                <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-linkedin-square"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-instagram"></i> </a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript">
+    $('.featured-carousel').owlCarousel({
+        loop: false,
+        margin: 0,
+        nav: true,
+        dots: false,
+        mergeFit: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>

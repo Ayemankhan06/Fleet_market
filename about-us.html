@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fleet Market</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="fleet-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:#fff; font-size:35px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Our-Vehicle.html">Our Vehicle</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about-us.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal1">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link host-btn" href="#" data-toggle="modal" data-target="#exampleModal2">Become a host</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Log In </p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Welcome Back!</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Your Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Your Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign In</button>
+                        <p class="text-white text-center" style="font-size: 13px;"><a href="#" data-toggle="modal" data-target="#exampleModal1">Don't you have an account? Register!</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Sign Up </p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Register Now</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                        <p class="text-white text-center" style="font-size: 13px;"><a>Already have an account? SignIn</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Become a host modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Become a Host</p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Dot Number</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dot #">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                        <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modals end here -->
+    <div class="search-form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Searching For</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>Enter Your Pickup Location</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Pick-up Location</label>
+                        <input type="email" class="form-control" placeholder="Enter your pick-up location">
+                        <span><img src="images/search.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Start Date</label>
+                        <input type="email" class="form-control" placeholder="Start Date">
+                        <span><img src="images/start date.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">End Date</label>
+                        <input type="email" class="form-control" placeholder="Start Date">
+                        <span><img src="images/ending date.png"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Vehicle Type</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>Choose your vehicle type</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Radius</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>6mi</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Check-in</label>
+                        <input type="email" class="form-control" placeholder="Check-in">
+                        <span><img src="images/check in.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Check-out</label>
+                        <input type="email" class="form-control" placeholder="Check-out">
+                        <span><img src="images/check out.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <a type="button" class="btn srch-btn">Search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about-us-sec">
+        <div class="heading-section">
+            <div class="container">
+                <div class="vehicle-h3">
+                    <h3>About <span class="theme-clr">Us</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="about-banner">
+            <h2 class="text-white text-uppercase truck-rental">Truck Rental made <span style="color: #a10c10;">easy!</span></h2>
+        </div>
+        <div class="container">
+            <h3 class="text-capitalize mt-5 mb-3 about-us-headings">Rent a vehicle <span style="color: #a10c10; font-weight: bold;">Now</span> </h3>
+            <p class="text-muted about-us-text-margin">Finding the vehicle that fits your requirements and comes under your budget is now easier than ever before. </p>
+            <br>
+            <p class="text-muted about-us-text-margin">Earlier, you would have to manually inspect each vehicle to ensure that it will be able to fulfill your requirements. But, now the FleetMarket allows you to rent trucks, trailers, tractors, and vans available near you with three simple steps. We filter out the vehicle that suits your requirements easily, helping you save a lot of time.</p>
+            <p class="text-muted about-us-text-margin">Our success comes with the hard work of a dedicated team that is continuously working behind our platform. Some exclusive features that have helped us grow are listed below:</p>
+            <h3 class="text-capitalize mt-5 mb-3 about-us-headings">How does the fleet market stand out <span style="color: #a10c10; font-weight: bold;"> Among competitors</span> </h3>
+            <p class="text-muted about-us-text-margin">Our success comes with the hard work of a dedicated team that is continuously working behind our platform. Some exclusive features that have helped us grow are listed below:</p>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="images/listing.png" class="mx-auto d-block mb-4 about-img">
+                        <h3 class="text-capitalize mt-3 mb-3" style="font-size: 24px;">Easy <span style="color: #a10c10; font-weight: bold;">Listing</span> </h3>
+                        <p class="text-muted mb-4" style="font-size: 15px;">We have made it simple for the dealers and locals to list their vehicles on our website. It helps people save time and get started with their business.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/quick signup.png" class="mx-auto d-block mb-4 about-img">
+                        <h3 class="text-capitalize mt-3 mb-3" style="font-size: 24px;">quick <span style="color: #a10c10; font-weight: bold;">signup</span> </h3>
+                        <p class="text-muted mb-4" style="font-size: 15px;">Unlike our competitors, we have made the signup process quick for both dealers and renters. It helps you verify yourself easily and make your bookings on time.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/ui.png" class="mx-auto d-block mb-4 about-img">
+                        <h3 class="text-capitalize mt-3 mb-3" style="font-size: 24px;">Engaging <span style="color: #a10c10; font-weight: bold;">UI</span> </h3>
+                        <p class="text-muted mb-4" style="font-size: 15px;">We have made the interface simple and easy to understand so that any person can easily access the vehicles they are looking for and make a request for booking them.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-capitalize mt-5 mb-3 about-us-headings">Advantage of listing vehicles on <span style="color: #a10c10; font-weight: bold;">the fleet market!</span> </h3>
+            <p class="text-muted about-us-text-margin">There are a lot of benefits associated with listing your vehicle on the FleetMarket. </p><br>
+            <p class="text-muted about-us-text-margin">Listed are some of the reasons why you should consider listing your vehicle on thefleetmarket.com </p><br>
+            <ul class="bullets-points text-muted">
+                <li> The process of listing your vehicle on our website is quick and simple</li>
+                <li> You are allowed to charge rent on a predefined price set by you</li>
+                <li> You can easily mark your vehicle unavailable for the dates you require it for yourself</li>
+                <li> Deals are conducted with complete identity verification, so your vehicle is in safe hands</li>
+            </ul>
+            <h3 class="text-capitalize mt-5 mb-3 about-us-headings">About <span style="color: #a10c10; font-weight: bold;">us</span> </h3>
+            <p class="text-muted about-us-text-margin">the FleetMarket is a fleet sharing marketplace that facilitates people to rent trucks, trailers, tractors, and vans. We provide a highly innovative and modern platform to rent your fleet in 3 simple steps — Search, Book and Drive.</p><br>
+            <p class="text-muted about-us-text-margin">We have our undivided attention towards renters and truckers on a large scale. We provide customized rental solutions for your transportation requirements while exceeding industry benchmarks and matching your expectations.</p><br>
+            <p class="text-muted about-us-text-margin">Our aim is to bring dealers and renters closer through a highly trustworthy platform. We list fully verified vehicles of the locals near your area and dealers who provide vehicles for various travel services. Listing vehicles on our website makes it easy to rent out vehicles and earn money when you don’t need them. the FleetMarket will never let you down for your fleet requirements.</p><br><br>
+            <p class="text-muted about-us-text-margin mb-5">Want to know more about us? Reach out to us, we will be happy to contact you! https://www.thefleetmarket.com/contact-us/</p>
+            <br>
+        </div>
+        </div>
+        </div>
+    </section>
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/logo.png">
+                    <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Explore</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Tractors</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Trucks</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Vans</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Information</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Help</a></li>
+                        <li><a href="blog.html"><i class="fa fa-play" aria-hidden="true"></i>Blog</a></li>
+                        <li><a href="about-us.html"><i class="fa fa-play" aria-hidden="true"></i>About Us</a></li>
+                        <li><a href="contact-us.html"><i class="fa fa-play" aria-hidden="true"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Customer Care</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Host-FAQs</a></li>
+                        <li><a href="term-of-use.html"><i class="fa fa-play" aria-hidden="true"></i>Terms of Use</a></li>
+                        <li><a href="privacy-policy.html"><i class="fa fa-play" aria-hidden="true"></i>Privacy Policy</a></li>
+                        <li><a href="resolution-center.html"><i class="fa fa-play" aria-hidden="true"></i>Resolution Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-section">
+        <div class="container">
+            <p>Copyrights© by FLEET MARKET LLC 2020. All rights Reserved</p>
+            <ul class="footer-social-links">
+                <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-linkedin-square"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-instagram"></i> </a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

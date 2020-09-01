@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fleet Market</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg custom-nav">
+        <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="fleet-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:#fff; font-size:35px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Our-Vehicle.html">Our Vehicle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal1">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link host-btn" href="#" data-toggle="modal" data-target="#exampleModal2">Become a host</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Log In </p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Welcome Back!</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Your Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Your Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign In</button>
+                        <p class="text-white text-center" style="font-size: 13px;"><a href="#" data-toggle="modal" data-target="#exampleModal1">Don't you have an account? Register!</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Sign Up </p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Register Now</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                        <p class="text-white text-center" style="font-size: 13px;"><a>Already have an account? SignIn</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Become a host modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: transparent;">
+                <div class="modal-body">
+                    <p class="text-white text-center p-3" style="font-size: 32px; ">Become a Host</p>
+                    <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p>
+                    <hr style="background-color: white; width: 80%;" class="mb-5">
+                    <form class="padd">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                            <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Dot Number</label>
+                            <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dot #">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                            <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                        <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modals end here -->
+    <div class="search-form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Searching For</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>Enter Your Pickup Location</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Pick-up Location</label>
+                        <input type="email" class="form-control" placeholder="Enter your pick-up location here">
+                        <span><img src="images/search.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Start Date</label>
+                        <input type="email" class="form-control" placeholder="Start Date">
+                        <span><img src="images/start date.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">End Date</label>
+                        <input type="email" class="form-control" placeholder="Start Date">
+                        <span><img src="images/ending date.png"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Vehicle Type</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>Choose your vehicle type</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Radius</label>
+                        <select class="form-control placeholder-clr">
+                            <option value="" disabled selected hidden>6mi</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Check-in</label>
+                        <input type="email" class="form-control" placeholder="Check-in">
+                        <span><img src="images/check in.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <div class="form-group search-input">
+                        <label for="exampleInputEmail1">Check-out</label>
+                        <input type="email" class="form-control" placeholder="Check-out">
+                        <span><img src="images/check out.png"></span>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <a type="button" class="btn srch-btn">Search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="heading-section">
+        <div class="container">
+            <div class="vehicle-h3">
+                <h3>Terms of <span class="theme-clr">Use</span></h3>
+            </div>
+        </div>
+    </div>
+    <div class="privacy-section">
+        <div class="container">
+            <h2>Terms and Conditions</h2>
+            <h3>Agreement between User and www.thefleetmarket.com</h3>
+            <p>Welcome to www.thefleetmarket.com. The www.thefleetmarket.com website (the “Site”) is comprised of various web pages operated by FleetMarket LLC (“the FleetMarket”). www.thefleetmarket.com is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the “Terms”). Your use of www.thefleetmarket.com constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.</p>
+            <p>www.thefleetmarket.com is an online marketplace facilitator.</p>
+            <p>The FleetMarket(we) allows equipment owners(host) to lend, rent, offer their equipment to (borrowers) at determined price. We aids and makes these transactions possible but does not own or manage any of the equipments advertised/listed. We do not participate in any rental contracts or agreement between users. These contracts are between the lender and borrower. Unless otherwise provided, the FleetMarket’s responsibilities are limited to enabling the services and serving as a limited agent for users listing available equipments for rent and for the purpose of accepting payments from Users(borrower) borrowing the owner’s equipment.</p>
+            <p>Even though the FleetMarket may provide rental, delivery, listing, pricing and other service guidance, they are only for informational purposes only and users may request/ decide to set their preference.</p>
+            <p>The FleetMarket may help to assist users in resolving disputes arising through our website but do not have total control or guarantee the outcome of these disputes. It is advised that host and borrowers try to resolve dispute between each-other and only contact the FleetMarket as the final solution. We do not guarantee the safety, quality, existence, or legality of any equipment listed or offered. Even though we strive to ensure that both host and borrowers play and honor their roles respectively, we do not guarantee the truth,accuracy of users, the ability for users to rent, the ability for users to make payments, the competency of users to use equipment, the existence of users insurance coverage, or the ability for a user to complete a rental term or default.</p>
+            <h3>Privacy</h3>
+            <p>Your use of www.thefleetmarket.com is subject to the FleetMarket’s Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices.</p>
+            <h3>Electronic Communications</h3>
+            <p>Visiting www.thefleetmarket.com or sending emails to the FleetMarket constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing.</p>
+            <h3>Your Account</h3>
+            <p>If you use this site, you are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password. You may not assign or otherwise transfer your account to any other person or entity. You acknowledge that the FleetMarket is not responsible for third party access to your account that results from theft or misappropriation of your account. the FleetMarket and its associates reserve the right to refuse or cancel service, terminate accounts, or remove or edit content in our sole discretion.</p>
+            <h3>Children Under Thirteen</h3>
+            <p>The FleetMarket does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. The required age to utilize the FleetMarket is twenty-one (21) years.</p>
+            <h3>Owners/Lenders</h3>
+            <p>A user who opens an account with the purpose or intent to offer their equipment to be used by another user at a pre-determined price is termed a “lender/owner”.</p>
+            <p>Owners can sign up for an account to list or Post their desired equipment being it single or multiple units for borowing on the FleetMarket’s platform.Once your equipment have been reserved, you can either accept the booking or decline. Note that an accepted booking cannot be canceled by the owner and therefore you will be required to make it available to the renter.</p>
+            <p>Owners are obligated to ensure the quality, accuracy and functionality of their listing. Inspections should be done regularly and all defects should be repaired. Each vehicle, equipment or item listed on the FleetMarket must be in safe, roadworthy, mechanically operable condition and must fully comply with all applicable State and Federal requirements, certification and laws. Newer listing are reviewed and documents verified by the FleetMarket before they post on the platform and do not guarantee that the said listing will go live.</p>
+            <p>Each and every vehicle, equipment or items must be owned by the account holder or otherwise the account holder must have permission and all necessary rights to list the said vehicle, item or equipment for rent/ borrow.</p>
+            <p>It is advice that owners have a vivid, true and reliable description attached to their listing.</p>
+            <p>You may opt to feature your listing through the platform.</p>
+            <p>Claims may be filed by contacting Claims: claims@thefleetmarket.com in an event that your equipment was damaged during a session.</p>
+            <h3>Vehicle/Equipment Requirements</h3>
+            <p>Vehicles/equipments offered on the FleetMarket’s platform are required to have:</p>
+            <ul>
+                <li>Current vehicle/equipment registration in your name (individual or entity)</li>
+                <li>Current registration and inspection stickers or markings as required by State law or Federal law.</li>
+                <li>Current commercial rental insurance coverage</li>
+                <li>Current vehicle/equipment insurance coverage in your name (individual or entity)</li>
+                <li>Current license plate number with registration stickers. Dealer Plates cant be used.</li>
+                <li>No mechanical, electrical defect that might cause the unsafe, unreliable or unoperable use of the vehicle/equipment.</li>
+                <li>No visible, present or displayed warning light such as but not limited to “check engine” “ABS” or fault codes.</li>
+                <li>A clean and odorless interior and exterior</li>
+                <li>Must comply with all State or Federal laws</li>
+                <li>Commercial Motor Vehicles (CMVs) must comply with the Federal Motor Carrier Safety Administration’s (FMCSA) Safety and Marking requirements.</li>
+            </ul>
+            <h3>Borrowers</h3>
+            <p>A user who opens an account with the purpose or intent to borrow an equipment at an offered price is termed a “borrower”.</p>
+            <p>Borrowed item must be returned in the same state as it was received. We recommend that you use our compare feature under each listing to compare multiple listing in order to find what best suites your needs. Spend a few minutes reading about your desired choice of equipment and if possible contact the owner for any unanswered questions you might have before confirming a booking. Once a listing as been booked, you are responsible for making immediate payment to secure your booking, and authorize the FleetMarket to charge your payment method being it credit card, bank card or any other payment option you choose to provide. Please do understand that payments are required once you confirm a booking and this is a legal binding contract between you and the owner. As stated in the terms, we do not take part in the rental between you and the owner. We are a third-party, marketplace platform only. Kindly refer to our cancellation/refund policy for any refunds.</p>
+            <p>In an event that you might be running late to return an equipment, kindly contact the owner to work out a deal. you agree that if these steps are not taken, Owners can issue late charges. You agree that the FleetMarket, in its sole role as limited collection agent to owner, may charge you payment option in hourly increments for the transaction.</p>
+            <h3>Security Deposit</h3>
+            <p>An amount paid by a borrower to an owner at the initial stage of a booking to borrow an equipment is termed Security Deposit.</p>
+            <p>Owners may opt to request a security deposit from borrowers in addition to rental cost. Security deposit are refundable at the end of a rental as long as all conditions related to the transaction are met. In a case where conditions have not been met, it can be used by owner to pay for or settle any amount owed for bookings after the transaction and under these terms. the FleetMarket will try to resolve arising issues which involves security deposits but do not guarantee the outcome of claims. You agree not to hold liable the FleetMarket to any claims arising to security deposits.</p>
+            <p>Claims may be filed by contacting Claims: claims@thefleetmarket.com in an event that you are unable to receive a response from the Owner.</p>
+            <h3>Insurance</h3>
+            <p>Unless otherwise provided in these Terms, the FleetMarket does not provide liability insurance coverage for Users. You or your authorized representative acting on your behalf shall be exclusively responsible for obtaining and maintaining commercial rental insurance coverage for the listed vehicle/equipments and its occupants for all rental transactions involving your vehicles/equipments through the FleetMarket Services. In the event that the FleetMarket elects to provide insurance coverage for users, all parties must participate in and complete the associated claims process. Users must notify the FleetMarket of all claims within 48 hours of occurrence. The FleetMarket reserves the right to deny any claims that are not initiated within the 48 hours claim period. Also, the FleetMarket reserves the right to disallow coverage for any claims filed if the Parties fail to provide the FleetMarket with any information necessary or required to processing any claim. In the event that the FleetMarket does not affirmatively state in writing that it is providing coverage for a reservation, You agree to carry no less than the minimum liability and/ or physical damage Commercial Motor Vehicle (CMV), bobtail, automobile or any mandatory insurance protection required by law for your vehicle / equipment. In the event that the FleetMarket denies coverage, does not provide coverage or User declines coverage, Users agree that they have or will obtain the appropriate insurance coverage sufficient to cover the listed item, motor vehicle, equipment or renter through the Services and will maintain adequate insurance coverage through the return of the item to the owner. Further, Users agree to provide the FleetMarket with copies of relevant proof of insurance upon request.</p>
+            <h3>Links to Third Party Sites/Third Party Services</h3>
+            <p>www.thefleetmarket.com may contain links or tabs to other websites (“Linked Sites”). The Linked Sites are not under the control of the FleetMarket and the FleetMarket is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. the FleetMarket is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by the FleetMarket of the site or any association with its operators.</p>
+            <p>Certain services made available via www.thefleetmarket.com are delivered by third party sites and organizations. By using any product, service or functionality originating from the www.thefleetmarket.com domain, you hereby acknowledge and consent that the FleetMarket may share such information and data with any third party with whom the FleetMarket has a contractual relationship to provide the requested product, service or functionality on behalf of www.thefleetmarket.com users and customers.</p>
+            <h3>Fees, Payments and Charges</h3>
+            <p>The FleetMarket will charge Borrowers a service fee “FM fee”. The service fee helps the FleetMarket run and manage the platform such as but not limited to payment processing, third-party fees etc and is not paid to the owner. The FM fee is based on 5% of the total transaction or booking cost. Please note that Taxes may be charged in addition to the FM fee where applicable. The FM fee is a one-time, non-refundable fee charged when you initiate a booking. Check our cancelation policy below.</p>
+            <p>Owners/Lenders authorize the FleetMarket as their limited collection agency for the sole purpose of collecting/accepting transaction payments on their behalf. This is strictly to collect or accept payments from the borrower to the lender and is not to participate in any agreements between the above Users.</p>
+            <p>Borrower authorize the FleetMarket to send instructions to their financial institution or card issuer to take payment from provided method of payments in accordance with the terms of their agreement with the FleetMarket. Borrowers agree that the FleetMarket may pre-authorize their credit card(s) “card” or provided payment option on file for any amont due during booking. The pre-authorized amount will then be charged after equipment have been returned to the owner in addition to any amount imposed at time of return by the owner. Payment amount include but are not limited to total cost of rental, insurance deductibles, lender/owner fees or charges due,insurance deductible, recurring payment extentions, late fees, etc. You agree to make all payments due to your account and shall not dispute any such charges, block your payment method or delibrately avoid to pay. In the event that payments are not received or payment method is declined, you agree to update your payment method through the FleetMarket. the FleetMarket may impose collection related fees which may include the recovery of all legal and collection agency fees related to the recovery process.</p>
+            <p>To protect the FleetMarket and its users from financial risk/loss, a pre-authorization on payment method may be issued. You will be notified if additional holds are require to complete your reservation/ booking.</p>
+            <p>Payments made through the FleetMarket are made possible through third-party processing companies such a PayPal inc. “PayPal”, Stripe inc “Stripe etc and therefore additional third-party related terms may apply and bound all Users on the FleetMarket’s platform.</p>
+            <p class="theme-clr">Kindly visit https://stripe.com/privacy</p>
+            <p class="theme-clr">https://stripe.com/payment-terms/legal</p>
+            <p class="theme-clr">https://www.paypal.com/webapps/mpp/ua/privacy-full</p>
+            <p class="theme-clr">https://www.paypal.com/us/webapps/mpp/ua/legalhub-full</p>
+            <p>Please note that, third-party processing companies may be replace at anytime without prior notice to users.</p>
+            <h3>No Unlawful or Prohibited Use/Intellectual Property</h3>
+            <p>You are granted a non-exclusive, non-transferable, revocable license to access and use www.thefleetmarket.com strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to the FleetMarket that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party’s use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.</p>
+            <p>All content included as part of the Service, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on the Site, is the property of the FleetMarket or its suppliers and protected by copyright and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, legends or other restrictions contained in any such content and will not make any changes thereto.</p>
+            <p>You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Site. the FleetMarket content is not for resale. Your use of the Site does not entitle you to make any unauthorized use of any protected content, and in particular you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use, and will make no other use of the content without the express written permission of the FleetMarket and the copyright owner. You agree that you do not acquire any ownership rights in any protected content. We do not grant you any licenses, express or implied, to the intellectual property of the FleetMarket or our licensors except as expressly authorized by these Terms.</p>
+            <h3>Use of Communication, Feedback, or Review Services</h3>
+            <p>The Site may contain bulletin board services, chat areas, feedback, review, news groups, forums, communities, personal web pages, calendars, and/or other message or communication facilities designed to enable you to communicate with the public at large or with a group (collectively, “Communication Services”). You agree to use the Communication Services only to post, send and receive messages and material that are proper and related to the particular Communication Service.</p>
+            <p>By way of example, and not as a limitation, you agree that when using a Communication Service, you will not: defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others; publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, infringing, obscene, indecent or unlawful topic, name, material or information; upload files that contain software or other material protected by intellectual property laws (or by rights of privacy of publicity) unless you own or control the rights thereto or have received all necessary consents; upload files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another’s computer; advertise or offer to sell or buy any goods or services for any business purpose, unless such Communication Service specifically allows such messages; conduct or forward surveys, contests, pyramid schemes or chain letters; download any file posted by another user of a Communication Service that you know, or reasonably should know, cannot be legally distributed in such manner; falsify or delete any author attributions, legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded; restrict or inhibit any other user from using and enjoying the Communication Services; violate any code of conduct or other guidelines which may be applicable for any particular Communication Service; harvest or otherwise collect information about others, including e-mail addresses, without their consent; violate any applicable laws or regulations.</p>
+            <p>The FleetMarket has no obligation to monitor the Communication Services. However, the FleetMarket reserves the right to review materials posted to a Communication Service and to remove any materials in its sole discretion. the FleetMarket reserves the right to terminate your access to any or all of the Communication Services at any time without notice for any reason whatsoever.</p>
+            <p>The FleetMarket reserves the right at all times to disclose any information as necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in the FleetMarket’s sole discretion.</p>
+            <p>Always use caution when giving out any personally identifying information about yourself or your children in any Communication Service. the FleetMarket does not control or endorse the content, messages or information found in any Communication Service and, therefore, the FleetMarket specifically disclaims any liability with regard to the Communication Services and any actions resulting from your participation in any Communication Service. Managers and hosts are not authorized the FleetMarket spokespersons, and their views do not necessarily reflect those of the FleetMarket.</p>
+            <p>Materials uploaded to a Communication Service may be subject to posted limitations on usage, reproduction and/or dissemination. You are responsible for adhering to such limitations if you upload the materials.</p>
+            <h3>Materials Provided to www.thefleetmarket.com or Posted on Any the FleetMarket Web Page</h3>
+            <p>the FleetMarket does not claim ownership of the materials you provide to www.thefleetmarket.com (including feedback and suggestions) or post, upload, input or submit to any the FleetMarket Site or our associated services (collectively “Submissions”). However, by posting, uploading, inputting, providing or submitting your Submission you are granting the FleetMarket, our affiliated companies and necessary sublicensees permission to use your Submission in connection with the operation of their Internet businesses including, without limitation, the rights to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission; and to publish your name in connection with your Submission.</p>
+            <p>No compensation will be paid with respect to the use of your Submission, as provided herein. the FleetMarket is under no obligation to post or use any Submission you may provide and may remove any Submission at any time in the FleetMarket’s sole discretion.</p>
+            <p>By posting, uploading, inputting, providing or submitting your Submission you warrant and represent that you own or otherwise control all of the rights to your Submission as described in this section including, without limitation, all the rights necessary for you to provide, post, upload, input or submit the Submissions.</p>
+            <h3>Third Party Accounts</h3>
+            <p>You will be able to connect your the FleetMarket account to third party accounts. By connecting your the FleetMarket account to your third party account, you acknowledge and agree that you are consenting to the continuous release of information about you to others (in accordance with your privacy settings on those third party sites). If you do not want information about you to be shared in this manner, do not use this feature.</p>
+            <h3>International Users</h3>
+            <p>The Service is controlled, operated and administered by the FleetMarket from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the FleetMarket Content accessed through www.thefleetmarket.com in any country or in any manner prohibited by any applicable laws, restrictions or regulations.</p>
+            <h3>Cancellation/Refund Policy</h3>
+            <p>You may cancel and request a refund within Twenty-Four (24) hours of booking. Any cancellations made within 12hrs of pickup time or after your pickup time will not qualify for a refund. Refund amount will not include FM fees.</p>
+            <p>Please contact us at payments@thefleetmarket.com</p>
+            <h3>Indemnification</h3>
+            <p>You agree to indemnify, defend and hold harmless the FleetMarket, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses (including reasonable attorney’s fees) relating to or arising out of your use of or inability to use the Site or services, any user postings made by you, your violation of any terms of this Agreement or your violation of any rights of a third party, or your violation of any applicable laws, rules or regulations. the FleetMarket reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with the FleetMarket in asserting any available defenses.</p>
+            <h3>Arbitration</h3>
+            <p>In the event the parties are not able to resolve any dispute between them arising out of or concerning these Terms and Conditions, or any provisions hereof, whether in contract, tort, or otherwise at law or in equity for damages or any other relief, then such dispute shall be resolved only by final and binding arbitration pursuant to the Federal Arbitration Act, conducted by a single neutral arbitrator and administered by the American Arbitration Association, or a similar arbitration service selected by the parties, in a location mutually agreed upon by the parties. The arbitrator’s award shall be final, and judgment may be entered upon it in any court having jurisdiction. In the event that any legal or equitable action, proceeding or arbitration arises out of or concerns these Terms and Conditions, the prevailing party shall be entitled to recover its costs and reasonable attorney’s fees. The parties agree to arbitrate all disputes and claims in regards to these Terms and Conditions or any disputes arising as a result of these Terms and Conditions, whether directly or indirectly, including Tort claims that are a result of these Terms and Conditions. The parties agree that the Federal Arbitration Act governs the interpretation and enforcement of this provision. The entire dispute, including the scope and enforceability of this arbitration provision shall be determined by the Arbitrator. This arbitration provision shall survive the termination of these Terms and Conditions.</p>
+            <h3>Class Action Waiver</h3>
+            <p>Any arbitration under these Terms and Conditions will take place on an individual basis; class arbitrations and class/representative/collective actions are not permitted. THE PARTIES AGREE THAT A PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN EACH’S INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PUTATIVE CLASS, COLLECTIVE AND/ OR REPRESENTATIVE PROCEEDING, SUCH AS IN THE FORM OF A PRIVATE ATTORNEY GENERAL ACTION AGAINST THE OTHER. Further, unless both you and the FleetMarket agree otherwise, the arbitrator may not consolidate more than one person’s claims, and may not otherwise preside over any form of a representative or class proceeding.</p>
+            <h3>Liability Disclaimer</h3>
+            <p>THE INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH THE SITE MAY INCLUDE INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. FLEETMARKET LLC AND/OR ITS SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE SITE AT ANY TIME.</p>
+            <p>FLEETMARKET LLC AND/OR ITS SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS, AND ACCURACY OF THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS CONTAINED ON THE SITE FOR ANY PURPOSE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL SUCH INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS ARE PROVIDED “AS IS” WITHOUT WARRANTY OR CONDITION OF ANY KIND. FLEETMARKET LLC AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS, INCLUDING ALL IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.</p>
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL FLEETMARKET LLC AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, DATA OR PROFITS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OR PERFORMANCE OF THE SITE, WITH THE DELAY OR INABILITY TO USE THE SITE OR RELATED SERVICES, THE PROVISION OF OR FAILURE TO PROVIDE SERVICES, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS OBTAINED THROUGH THE SITE, OR OTHERWISE ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF FLEETMARKET LLC OR ANY OF ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THE SITE, OR WITH ANY OF THESE TERMS OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SITE.</p>
+            <h3>Termination/Access Restriction</h3>
+            <p>The FleetMarket reserves the right, in its sole discretion, to terminate your access to the Site and the related services or any portion thereof at any time, without notice. To the maximum extent permitted by law, this agreement is governed by the laws of the Commonwealth of Pennsylvania and you hereby consent to the exclusive jurisdiction and venue of courts in Pennsylvania in all disputes arising out of or relating to the use of the Site. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limitation, this section.</p>
+            <p>You agree that no joint venture, partnership, employment, or agency relationship exists between you and the FleetMarket as a result of this agreement or use of the Site. the FleetMarket’s performance of this agreement is subject to existing laws and legal process, and nothing contained in this agreement is in derogation of the FleetMarket’s right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by the FleetMarket with respect to such use. If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect.</p>
+            <p>Unless otherwise specified herein, this agreement constitutes the entire agreement between the user and the FleetMarket with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and the FleetMarket with respect to the Site. A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish to the parties that this agreement and all related documents be written in English.</p>
+            <h3>Changes to Terms</h3>
+            <p>the FleetMarket reserves the right, in its sole discretion, to change the Terms under which www.thefleetmarket.com is offered. The most current version of the Terms will supersede all previous versions. the FleetMarket encourages you to periodically review the Terms to stay informed of our updates.</p>
+            <h3>Contact Us</h3>
+            <p>The FleetMarket welcomes your questions or comments regarding the Terms:</p>
+            <p>FleetMarket LLC</p>
+            <p>Effective as of March 07, 2020</p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/logo.png">
+                    <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Explore</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Tractors</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Trucks</a></li>
+                        <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Vans</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Information</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Help</a></li>
+                        <li><a href="blog.html"><i class="fa fa-play" aria-hidden="true"></i>Blog</a></li>
+                        <li><a href="about-us.html"><i class="fa fa-play" aria-hidden="true"></i>About Us</a></li>
+                        <li><a href="contact-us.html"><i class="fa fa-play" aria-hidden="true"></i>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Customer Care</h5>
+                    <ul class="footer-useful-links">
+                        <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Host-FAQs</a></li>
+                        <li><a href="term-of-use.html"><i class="fa fa-play" aria-hidden="true"></i>Terms of Use</a></li>
+                        <li><a href="privacy-policy.html"><i class="fa fa-play" aria-hidden="true"></i>Privacy Policy</a></li>
+                        <li><a href="resolution-center.html"><i class="fa fa-play" aria-hidden="true"></i>Resolution Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-section">
+        <div class="container">
+            <p>Copyrights© by FLEET MARKET LLC 2020. All rights Reserved</p>
+            <ul class="footer-social-links">
+                <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-linkedin-square"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-instagram"></i> </a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fleet Market</title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg custom-nav">
+        <a class="navbar-brand" href="index.html"><img src="images/nav-logo.png" alt="fleet-logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:#fff; font-size:35px;"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="Our-Vehicle.html">Our Vehicle</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal1">Register</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link host-btn" href="#" data-toggle="modal" data-target="#exampleModal2">Become a host</a>
+          </li>
+      </ul>
+  </div>
+</nav>
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: transparent;">
+            <div class="modal-body">
+                <p class="text-white text-center p-3" style="font-size: 32px; ">Log In </p>
+                <p class="text-white text-center" style="font-size: 14px; ">Welcome Back!</p>
+                <hr style="background-color: white; width: 80%;" class="mb-5">
+                <form class="padd">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Your Email</label>
+                        <input type="email" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Your Password</label>
+                        <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign In</button>
+                    <p class="text-white text-center" style="font-size: 13px;"><a href="#" data-toggle="modal" data-target="#exampleModal1">Don't you have an account? Register!</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- register modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+     <div class="modal-content" style="background-color: transparent;">
+         <div class="modal-body">
+             <p class="text-white text-center p-3" style="font-size: 32px; ">Sign Up </p>
+             <p class="text-white text-center" style="font-size: 14px; ">Register Now</p>
+             <hr style="background-color: white; width: 80%;" class="mb-5">
+             <form class="padd">
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                   <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                   <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                   <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+               </div>
+                 <div class="form-group form-check">
+                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                     <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                 </div>
+                 <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                 <p class="text-white text-center" style="font-size: 13px;"><a>Already have an account? SignIn</a></p>
+             </form>
+         </div>
+     </div>
+ </div>
+</div>
+<!-- Become a host modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+     <div class="modal-content" style="background-color: transparent;">
+         <div class="modal-body">
+             <p class="text-white text-center p-3" style="font-size: 32px; ">Become a Host</p>
+             <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p>
+             <hr style="background-color: white; width: 80%;" class="mb-5">
+             <form class="padd">
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                   <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Password">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Phone</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Contact Number">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Dot Number</label>
+                   <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Dot #">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Password</label>
+                   <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Password">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Confirm Password</label>
+                   <input type="password" class="form-control model-input" id="exampleInputPassword1" placeholder="Re-enter Password">
+               </div>
+                 <div class="form-group form-check">
+                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                     <label class="form-check-label text-white" for="exampleCheck1" style="font-size: 11px;">Remember me</label>
+                 </div>
+                 <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Sign Up</button>
+                 <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+             </form>
+         </div>
+     </div>
+ </div>
+</div>
+<!-- modals end here -->
+<div class="search-form-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group">
+    <label for="exampleFormControlSelect1">Searching For</label>
+    <select class="form-control placeholder-clr">
+      <option value="" disabled selected hidden>Enter Your Pickup Location</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group search-input">
+    <label for="exampleInputEmail1">Pick-up Location</label>
+    <input type="email" class="form-control" placeholder="Enter your pick-up location here">
+    <span><img src="images/search.png"></span>
+
+
+  </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group search-input">
+          <label for="exampleInputEmail1">Start Date</label>
+          <input type="email" class="form-control" placeholder="Start Date">
+          <span><img src="images/start date.png"></span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group search-input">
+          <label for="exampleInputEmail1">End Date</label>
+          <input type="email" class="form-control" placeholder="Start Date">
+          <span><img src="images/ending date.png"></span>
+        </div>
+      </div>
+
+      </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Vehicle Type</label>
+          <select class="form-control placeholder-clr">
+            <option value="" disabled selected hidden>Choose your vehicle type</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Radius</label>
+          <select class="form-control placeholder-clr">
+            <option value="" disabled selected hidden>6mi</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <div class="form-group search-input">
+          <label for="exampleInputEmail1">Check-in</label>
+          <input type="email" class="form-control" placeholder="Check-in">
+          <span><img src="images/check in.png"></span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <div class="form-group search-input">
+          <label for="exampleInputEmail1">Check-out</label>
+          <input type="email" class="form-control" placeholder="Check-out">
+          <span><img src="images/check out.png"></span>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4">
+        <a type="button" class="btn srch-btn">Search</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="heading-section">
+  <div class="container">
+    <div class="vehicle-h3">
+      <h3>Privacy <span class="theme-clr">Policy</span></h3>
+    </div>
+  </div>
+</div>
+<div class="privacy-section">
+  <div class="container">
+    <h2>Who we are</h2>
+    <p>The FleetMarket (www.thefleetmarket.com) is a Fleet sharing marketplace that facilitates people to rent trucks, trailers, tractors, and vans. We provide a highly innovative and modern platform to rent your fleet in 3 simple steps — Search, Book and Drive.</p>
+    <p>Our privacy policy has been compiled to address those concerned about how their their Personally Identifiable Information (PII) is used online. As defined in OMB Memorandum M-07-1616, PII refers to information that can be used to distinguish or trace an individual’s identity, either alone or when combined with other personal or identifying information that is linked or linkable to a specific individual. Kindly take the time to read our privacy policy to gain a clear knowledge of how we collect, use, protect or otherwise handle your PII in relation with our website.</p>
+    <h3>What personal data we collect, how, and why we collect it</h3>
+    <ul>
+      <li>First and Last name</li>
+      <li>Mailing address</li>
+      <li>Phone number</li>
+      <li>Payment information such as but not limited to “bank card, credit card, etc”</li>
+      <li>Driver License or Commercial Drivers License Number</li>
+    </ul>
+    <h3>Information is collected when you:</h3>
+    <h4>Comments</h4>
+    <p>When visitors leave comments on the Site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>
+    <h4>Contact form</h4>
+    <p>Information provided on contacts form are used to help us in the processing of such form.Information provided on contacts form are used to help us in the processing of such form.</p>
+    <h4>Photos</h4>
+    <p>Users should avoid uploading images with embedded location data (EXIF GPS) included. Visitors can download and extract these location data from your public images.</p>
+    <h4>Support Tickets</h4>
+    <p>When you open a support ticket or contact support, your information will be shared with our support team to help us better serve, process your request and identify you.</p>
+    <h4>Cookies</h4>
+    <p>The FleetMarket uses cookies (small, often encrypted, text files that are stored on your computer or mobile device) and similar technologies (“Cookies”) to provide the Services and help collect data. This policy section explains how we use Cookies to collect information about the way you use our Sites and Services, and how you can control them.</p>
+    <h3>How We Use Cookies</h3>
+    <p>We use Cookies to track how you use our Sites and Services by providing usage statistics. Cookies are also used to deliver Company information (including updates) and allow product authentication to you based upon your browsing history and previous visits to the Site. Information supplied to us using cookies helps us to provide a better online experience to our visitors and users and send marketing communications to them, as the case may be. Information supplied to us upon launching of the Services will enable the FleetMarket to manage your permissions, subscriptions, account type and improve the functionality of the Sites or Services.</p>
+    <p>While this information on its own may not constitute your “personal data”, we may combine the information we collect via Cookies with personal data that we have collected from you to learn more about how you use our Sites and Services to improve them.</p>
+    <h3>Embedded content from other websites</h3>
+    <p>In order for us to enhance our content and deliver a better online experience for our users, the FleetMarket may include embedded content such as videos, images, articles, social sharing icons etc. through the websites. Currently the FleetMarket uses and may use in the future contents from social media Sites such as Trustpilot, Facebook, LinkedIn and Twitter. Please note that cookies that might be presented to you from such sites are not controlled by us. And therefore we are not responsible for the security or privacy of any information collected by these third parties. We advice that you visit the individual privacy policy of these websites to have a better understand on how your Personal Identifiable Information is been used.</p>
+    <h3>Social Sharing</h3>
+    <p>Social sharing icons are embedded throughout our Sites. These options makes it easier for you to share contents from our Site with friends, family and business associates using a variety of optional social networks. If you opt to connect using a social network or similar service, we may receive and store authentication information from that service to allow your log in and also other information you may opt to share when connected to these services. Your chosen networking services may collect information such as but not limited to your web browser, visited web pages and IP addresses. Please note that, cookies that might be presented to you from such services are not controlled by us. And therefore we are not responsible for the security or privacy of any information collected by these third parties. We advice that, you visit the individual privacy policy of these networking services to better understand how your Personal Identifiable Information is being used. Social sharing features are optional, therefore if you do not want your personal data shared with your social media provider or other social networking services, kindly do not connect your account with any social media account for any reason being it login, signup or content sharing.</p>
+    <h3>Analytics</h3>
+    <p>Google Analytics, a third-party provider, is used to collect information about Services usage and the users of the Services, including demographic and interest-level information. Google uses cookies in order to collect demographic and interest-level information and usage information from users that visit the Services, including information about the pages where users enter and exit the Services and what pages users view on the Services, time spent, browser, operating system, and IP address. Cookies allow Google to recognize a user when a user visits the Services and when the user visits other websites. Google uses the information it collects from the Services and other websites to share with us and other website operators’ information about users including age range, gender, geographic regions, general interests, and details about devices used to visit websites and purchase items. We do not link information we receive from Google with any of your personally identifiable information. For more information regarding Google’s use of cookies, and collection and use of information, see the Google Privacy Policy (available at https://policies.google.com/privacy?hl=en). If you would like to opt out of Google Analytics tracking, please visit the Google Analytics Opt-out Browser Add-on (available at https://tools.google.com/dlpage/gaoptout).</p>
+    <h3>How to Manage or Delete Cookies</h3>
+    <p>Cookies are unique to each browser, therefore multi-browser users must manage their settings and preferences individually across all browsers. You can manage, restrict, clear or block cookies through your current web browser settings. Detailed instructions related to your current browser, can be found in the Help section of the browser.</p>
+    <p>For devices other than a desktop or laptop computer, users should refer to their instruction manual or utilize the help resource to acquire knowledge on how to manage cookies on that device.</p>
+    <p>Please note that, If you restrict, disable or block any or all Cookies from your web browser, mobile or other device, the Sites may not operate properly, and you may not have full access to the Services available through the Sites. The FleetMarket shall not be liable for any impossibility to use the Sites and Services or degraded functioning thereof, where such are caused by your settings and choices regarding cookies. If you have disabled one or more cookies, we may still use information collected from cookies prior to your disabled preference being set, however, we will stop using the disabled cookie to collect any further information.</p>
+    <p>Kindly visit www.allaboutcookies.org to learn more about cookies.</p>
+    <h3>How we protect your information</h3>
+    <p>We do not sell, trade or transfer your Personal Identifiable Information to third-parties. The FleetMarket takes the security of our users seriously. Our website is periodically scanned for security threats in order to make your experience as safe as possible. All this is done through a trusted company specialized in online security threats.</p>
+    <h3>CHILDREN'S POLICY</h3>
+    <h4>Children Under Thirteen</h4>
+    <p>The FleetMarket does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. The required age to utilize the FleetMarket is twenty-one (21) years.</p>
+    <h4>California Minors</h4>
+    <p>While the Service is not intended for anyone under the age of 21, if you are a California resident who is under age 18 and you are unable to remove publicly-available content that you have submitted to us, you may request removal by contacting us at: privacy@thefleetmarket.com. When requesting removal, you must be specific about the information you want removed and provide us with specific information, such as the URL for each page where the information was entered, so that we can find it.</p>
+    <h3>We are not required to remove any content or information that</h3>
+    <ul>
+      <li>Federal or State law requires us or a third party to maintain</li>
+      <li>is anonymized so that you cannot be identified</li>
+      <li>was not posted by you</li>
+      <li>you received compensation or other consideration for providing the Content or information</li>
+      <li>don’t follow our instructions for removing or requesting removal</li>
+    </ul>
+    <p>Removal of your content or information from the Service does not ensure complete or comprehensive removal of that content or information from our systems or the systems of our service providers. We are not required to delete the content or information posted by you; our obligations under California law are satisfied so long as we anonymize the content or information or render it invisible to other users and the public.</p>
+    <h3>CAN SPAM Act</h3>
+    <p>As defined on the Federal Trade Commision’s website, the CAN-SPAM Act requires the Commission to issue regulations “defining the relevant criteria to facilitate the determination of the primary purpose of an electronic mail message.” The CAN-SPAM Act applies almost exclusively to “commercial electronic mail messages”</p>
+    <h3>Why we collect e-mail addresses from users</h3>
+    <ul>
+      <li>enable us contact and respond to users inquiries</li>
+      <li>contact users about additional information or requirements related to their products or services</li>
+      <li>keep users updated on the process of their orders</li>
+      <li>send out new market offers and promotions that might interest or benefit our users after a current or completed transaction</li>
+    </ul>
+    <h3>How we comply with the CAM SPAM Act</h3>
+    <ul>
+      <li>Avoid misleading subjects or e-mail addresses</li>
+      <li>Clearly display a functioning return e-mail address or other internet based mechanism.</li>
+      <li>Allow users to request to opt-out or unsubscribe without a fee</li>
+      <li>Use a returnable email or other internet-based mechanism for receivers to opt out of future commercial e-mail messages from us</li>
+      <li>Reasonably identify advertisement email messages</li>
+    </ul>
+    <h2>UPDATES TO THIS PRIVACY POLICY</h2>
+    <p>We may update this Privacy Policy based upon evolving Laws, regulations and industry standards, or as we may make changes to our business including our Sites and Services. We will post changes to our Privacy Policy on this page and encourage you to review our Privacy Policy when you use our Sites or Services to stay informed. If we make changes that materially alter your privacy rights, the FleetMarket will provide additional notice, such as via email or through the Sites or Services. If you disagree with the changes to this Privacy Policy, you should discontinue your use of the Sites and/or Services. You may also request access and control of your personal data as outlined in the Your Rights Regarding Personal Data section of this Privacy Policy.</p>
+    <h2>QUESTIONS OR COMPLAINTS HANDLING</h2>
+    <p>If you have questions or concerns about this Privacy Policy or our privacy practices please contact us by Email: privacy@thefleetmarket.com</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/logo.png">
+        <p class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .</p>
+
+      </div>
+      <div class="col-md-3">
+          <h5 class="footer-heading">Explore</h5>
+          <ul class="footer-useful-links">
+              <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Tractors</a></li>
+              <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Trucks</a></li>
+              <li><a href="catagory-detail.html"><i class="fa fa-play" aria-hidden="true"></i>Vans</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+          <h5 class="footer-heading">Information</h5>
+          <ul class="footer-useful-links">
+              <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Help</a></li>
+              <li><a href="blog.html"><i class="fa fa-play" aria-hidden="true"></i>Blog</a></li>
+              <li><a href="about-us.html"><i class="fa fa-play" aria-hidden="true"></i>About Us</a></li>
+              <li><a href="contact-us.html"><i class="fa fa-play" aria-hidden="true"></i>Contact Us</a></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+          <h5 class="footer-heading">Customer Care</h5>
+          <ul class="footer-useful-links">
+              <li><a href="FAQs.html"><i class="fa fa-play" aria-hidden="true"></i>Host-FAQs</a></li>
+              <li><a href="term-of-use.html"><i class="fa fa-play" aria-hidden="true"></i>Terms of Use</a></li>
+              <li><a href="privacy-policy.html"><i class="fa fa-play" aria-hidden="true"></i>Privacy Policy</a></li>
+              <li><a href="resolution-center.html"><i class="fa fa-play" aria-hidden="true"></i>Resolution Center</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="copyright-section">
+  <div class="container">
+    <p>Copyrights© by FLEET MARKET LLC 2020. All rights Reserved</p>
+    <ul class="footer-social-links">
+      <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+      <li> <a href="#"><i class="fa fa-linkedin-square"></i></a> </li>
+      <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+      <li> <a href="#"><i class="fa fa-instagram"></i> </a> </li>
+    </ul>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
