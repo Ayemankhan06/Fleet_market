@@ -201,7 +201,7 @@ h2 {
 }
 
 .modal-dialog {
-    background-image: url('../images/become a host background.png');
+    /* background-image: url('../images/become a host background.png'); */
     background-position: center;
     background-repeat: no-repeat;
     /* height: 500px; */
