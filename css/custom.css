@@ -655,7 +655,7 @@ a.btn.srch-btn {
 .menu {
     color: white;
     position: absolute;
-    left: 14px;
+    left: 0px;
     top: 0px;
     background-image: url(../images/featuredbg.png);
     background-size: auto;
