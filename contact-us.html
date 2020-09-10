@@ -170,6 +170,88 @@
        </div>
    </div>
 </div>
+<!-- Sales modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content" style="background-color: black;">
+           <div class="modal-body">
+             <button type="button" class="close" data-dismiss="modal" style="color: white;"><i class="fa fa-times close-icon" aria-hidden="true"></i></button>
+               <p class="text-white text-center p-3" style="font-size: 32px; ">Contact Sales</p>
+               <!-- <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p> -->
+               <hr style="background-color: white; width: 80%;" class="mb-5">
+               <form class="padd">
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                     <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Email">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Subject</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="mb-3 text-uppercase text-white">Your Message</label>
+                  <textarea class="form-control model-input" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+
+                   <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Send</button>
+                   <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+               </form>
+           </div>
+       </div>
+   </div>
+</div>
+<!-- Help modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+       <div class="modal-content" style="background-color: black;">
+           <div class="modal-body">
+             <button type="button" class="close" data-dismiss="modal" style="color: white;"><i class="fa fa-times close-icon" aria-hidden="true"></i></button>
+               <p class="text-white text-center p-3" style="font-size: 32px; ">Help Desk</p>
+               <!-- <p class="text-white text-center" style="font-size: 14px; ">Create an Account to Become a Host!</p> -->
+               <hr style="background-color: white; width: 80%;" class="mb-5">
+               <form class="padd">
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Name</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="exampleInputPassword1" class="mb-3 text-uppercase text-white">Email</label>
+                     <input type="email" class="form-control model-input" id="exampleInputPassword1" placeholder="Enter Your Email">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Company</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Company Name">
+                 </div>
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="mb-3 text-uppercase text-white">Subject</label>
+                     <input type="text" class="form-control model-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                 <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="mb-3 text-uppercase text-white">Your Message</label>
+                  <textarea class="form-control model-input" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+
+                   <button type="submit" class="btn btn-primary sgn-btn font-weight-bold mt-5 mb-3">Send</button>
+                   <!-- <p class="text-white text-center" style="font-size: 13px;"><a>Don't you have an account? Rgister</a></p> -->
+               </form>
+           </div>
+       </div>
+   </div>
+</div>
 <!-- modals end here -->
   <div class="search-form-section">
     <div class="container">
@@ -310,10 +392,10 @@
           <img class="mt-3" src="images/company.png">
           <p class="text-white mt-3 font-weight-bold text-uppercase" style="letter-spacing: 3px;">Company Deparment</p>
           <p class="text-white mt-3" style="line-height: 20px;">To contact our team, please select<br> one of the following:</p>
-          <p class="text-white" style="line-height: 20px;">Sales</p>
-          <p class="text-white" style="line-height: 20px;">Careers</p>
-          <p class="text-white" style="line-height: 20px;">Disputes</p>
-          <p class="text-white" style="line-height: 20px;">Help</p>
+          <a class="text-white d-block" style="line-height: 20px; cursor: pointer;" data-toggle="modal" data-target="#exampleModal3">Sales</a>
+          <a href="#" class="text-white d-block" style="line-height: 20px; cursor: pointer;">Careers</a>
+          <a href="resolution-center.html" class="text-white d-block" style="line-height: 20px; cursor: pointer;">Disputes</a>
+          <a class="text-white d-block" style="line-height: 20px; cursor: pointer;" data-toggle="modal" data-target="#exampleModal4">Help</a>
         </div>
       </div>
       </div>

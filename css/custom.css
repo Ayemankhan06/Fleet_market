@@ -2302,7 +2302,7 @@ ul.footer-useful-links i {
       font-size: 16px;
   }
 .banner-section{
-  display: none;
+  padding: 0;
 }
 
 .footer-social-links {
