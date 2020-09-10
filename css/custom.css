@@ -563,13 +563,16 @@ h2 {
 }
 
 /* Our Vehicle page CSS starts here*/
-
+::-webkit-calendar-picker-indicator {
+  filter: invert(59%);
+}
 .search-form-section{
   background-color: #a10c10;
   padding: 25px 0;
   color: white;
   margin-bottom: 84px;
 }
+
 .search-input{
   position: relative;
 }
